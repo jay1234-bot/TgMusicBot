@@ -85,7 +85,7 @@ TOKEN: Optional[str] = os.getenv("TOKEN")
 SESSION_STRINGS: list[str] = get_session_strings()
 MONGO_URI: Optional[str] = os.getenv("MONGO_URI")
 API_URL: str = os.getenv("API_URL", "https://tgmusic.fallenapi.fun")
-API_KEY: Optional[str] = os.getenv("API_KEY")
+API_KEY: Optional[str] = os.getenv("5dde61_X4S1Y5qmm4E-0WO2v_OAQ-rV3nCmwnsY")
 
 # Owner and Logger
 OWNER_ID: int = get_env_int("OWNER_ID", 5938660179)
@@ -98,8 +98,8 @@ MIN_MEMBER_COUNT: int = get_env_int("MIN_MEMBER_COUNT", 50)
 
 DOWNLOADS_DIR: Path = Path(os.getenv("DOWNLOADS_DIR", "database/music"))
 
-SUPPORT_GROUP: str = os.getenv("SUPPORT_GROUP", "https://t.me/GuardxSupport")
-SUPPORT_CHANNEL: str = os.getenv("SUPPORT_CHANNEL", "https://t.me/FallenProjects")
+SUPPORT_GROUP: str = os.getenv("SUPPORT_GROUP", "https://t.me/CUTIEE_BOT_SUPPORT")
+SUPPORT_CHANNEL: str = os.getenv("SUPPORT_CHANNEL", "https://t.me/KRISHAN_POLITICSSS")
 
 IGNORE_BACKGROUND_UPDATES: bool = get_env_bool("IGNORE_BACKGROUND_UPDATES", True)
 AUTO_LEAVE: bool = get_env_bool("AUTO_LEAVE", True)
